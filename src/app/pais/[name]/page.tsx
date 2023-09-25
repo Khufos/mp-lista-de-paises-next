@@ -96,7 +96,7 @@ export default async function CountryPage({
         <h3 className="mt-12 text-2xl font-semibold text-gray-800 text-center">
           Paises que fazem fronteiras
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full container gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full container gap-2 p-4">
           {fronteirasPaises?.map((border, index) => (
             <PaisInfo key={index} {...border} />
           ))}
